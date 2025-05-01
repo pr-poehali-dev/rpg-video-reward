@@ -25,6 +25,11 @@ const config = {
 
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
+        foreground: "hsl(var(--foreground))",
+        primary: {
+          DEFAULT: "hsl(var(--primary))",
+          foreground: "hsl(var(--primary-foreground))",
+        },
         rpg: {
           primary: "#8B5CF6", // Vivid purple
           secondary: "#D946EF", // Magenta pink
@@ -33,7 +38,6 @@ const config = {
           dark: "#1A1F2C", // Dark purple/blue for backgrounds
           light: "#F6F6F7", // Light background
         },
-
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
         },
